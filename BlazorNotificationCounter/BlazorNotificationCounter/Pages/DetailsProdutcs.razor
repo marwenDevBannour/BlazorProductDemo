@@ -1,0 +1,36 @@
+﻿@page "/details/{Id:int}"
+@inject IProductsServices productService
+@inject INotificationService notifyService
+
+<div class="card mb-3" >
+    <div class="row no-gutters">
+        <div class="col-md-4 col-sm-4 col-lg-4">
+        <img class="card-img" src="@product.ImageUrl" alt="Card image" >
+        </div>
+        <div class="col-md-8 col-sm-8 col-lg-8">
+    <div class="card-body">
+        <h5 class="card-title">@product.Title</h5>
+        <p class="card-text">@product.Discription</p>
+        <p class="card-text">Price:@product.Price</p>
+         <input type="number" @bind-value="@currentQte" class="form-control-sm form-control-lg" /><br/><br/>
+        <button type="button" class="btn btn-primary" @onclick="()=>AddOnCart()">Panier</button>
+    </div>
+    </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    public int currentQte { get; set; }
+    public Product product { get; set; } = new Product();
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = await productService.GetProduct(id);
+    }
+    private async Task AddOnCart()
+    {
+        notifyService.IncrementCounter(currentQte);
+    }
+}

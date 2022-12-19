@@ -1,0 +1,39 @@
+﻿@page "/products"
+@inject IProductsServices productService
+@inject NavigationManager navigation
+
+<div class="row">
+    @foreach (var _product in products)
+    {
+        <div class="card" style="width: 18rem; margin:5px;">
+            <img class="card-img-top" src="@_product.ImageUrl" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@_product.Title</h5>
+                <p class="card-text">@_product.Discription</p>
+                
+            </div>
+            <div class="card-footer" style="background-color:white;">
+               <button type="button" class="btn btn-primary" @onclick="() => Details(_product.Id)">Details</button>
+            </div>
+        </div><br/>
+    }
+ 
+    
+</div>
+
+@code {
+    public List<Product> products = new();
+    protected override async Task OnInitializedAsync()
+    {
+        products =await productService.GetProducts();
+
+    }
+
+    private async Task Details(int id)
+    {
+        navigation.NavigateTo("/details/" + id);
+    }
+
+
+
+}
