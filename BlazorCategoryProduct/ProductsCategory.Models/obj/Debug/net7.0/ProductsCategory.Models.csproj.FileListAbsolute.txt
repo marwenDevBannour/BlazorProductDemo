@@ -1,0 +1,14 @@
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\bin\Debug\net7.0\ProductsCategory.Models.deps.json
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\bin\Debug\net7.0\ProductsCategory.Models.runtimeconfig.json
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\bin\Debug\net7.0\ProductsCategory.Models.dll
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\bin\Debug\net7.0\ProductsCategory.Models.pdb
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\ProductsCategory.Models.csproj.AssemblyReference.cache
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\ProductsCategory.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\ProductsCategory.Models.AssemblyInfoInputs.cache
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\ProductsCategory.Models.AssemblyInfo.cs
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\ProductsCategory.Models.csproj.CoreCompileInputs.cache
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\ProductsCategory.Models.dll
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\refint\ProductsCategory.Models.dll
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\ProductsCategory.Models.pdb
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\ProductsCategory.Models.genruntimeconfig.cache
+E:\Blazor\Dapper\BlazorCategoryProduct\ProductsCategory.Models\obj\Debug\net7.0\ref\ProductsCategory.Models.dll

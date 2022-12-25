@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorCategoryProduct
+build_property.RootNamespace = BlazorCategoryProduct
+build_property.ProjectDir = E:\Blazor\Dapper\BlazorCategoryProduct\BlazorCategoryProduct\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Blazor\Dapper\BlazorCategoryProduct\BlazorCategoryProduct
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/Checkout/Checkout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRcQ2hlY2tvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Shared/CartMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcnRNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/DetailsProducts/DetailsProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsc1Byb2R1Y3RzXERldGFpbHNQcm9kdWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-5l4so0a2c6
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/DisplayProducts/DisplayProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVByb2R1Y3RzXERpc3BsYXlQcm9kdWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-n23f2tg4rd
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/DisplaySpinner/DisplaySpinner.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNwaW5uZXJcRGlzcGxheVNwaW5uZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rmfc3tnt41
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/ErrorPages/ErrorPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3JQYWdlc1xFcnJvclBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-sysm5kj8hs
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/Products/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-khw43xl5yq
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Pages/ShoppingCart/ShoppingCart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdDYXJ0XFNob3BwaW5nQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-8ps7x6xrez
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-612xietdwe
+
+[E:/Blazor/Dapper/BlazorCategoryProduct/BlazorCategoryProduct/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2nnef43n2p

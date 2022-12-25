@@ -1,0 +1,41 @@
+﻿@page "/productDetails/{id:int}"
+@using BlazorCategoryProduct.Helpers;
+
+
+@if (product == null && errorMessage == null)
+{
+    <DisplaySpinner/>
+}
+else if (errorMessage != null)
+{
+    <ErrorPage ErrorMessage="@errorMessage"></ErrorPage>
+}
+else
+{
+<div class="row">
+
+    <div class="col-md-8">
+        <img class="img-fluid" src="@product.ImageURL" alt="">
+    </div>
+
+    <div class="col-md-4">
+        <h3 class="my-3">@product.Name</h3>
+        <p>@product.Description</p>
+        <p class="mb-4">
+            <b>
+                @product.Price.ToString("C")&nbsp;(@product.Qty items in stock)
+            </b>
+        </p>
+        <div>
+            <button class="btn btn-success"
+            @onclick="() => (AddToCart_Click(new ProductsCategory.Models.Dto.CartItemToAddDto{
+                    CartId = HardCoded.CartId,
+                    ProductId = product.Id,
+                    Qty = 1
+                }))">
+                <b>Add to Cart</b>
+            </button>
+        </div>
+    </div>
+</div>
+}

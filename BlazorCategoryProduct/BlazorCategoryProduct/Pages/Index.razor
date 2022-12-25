@@ -1,0 +1,63 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+@foreach (var item in message)
+{
+    <p class="text-danger">@item</p>
+}
+
+<hr/>
+<input type="text" @bind="@value1" class="form-control"/>
+<input type="text" @bind="@value2" class="form-control"/><br/>
+<input type="text" @bind="@sum" class="form-control" disabled/><br/>
+<button type="button" @onclick="HundledValue" class="btn btn-success">Calculer</button>
+
+
+@code{
+    public List<string> message = new List<string>();
+    public int sum { get; set; }
+    public int value1 { get; set; }
+    public int value2 { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        message.Add("parameter Inisialized");
+       
+    }
+    protected override async Task OnParametersSetAsync()
+    {
+        message.Add("test OnParametreSetAsync");
+        await Task.Delay(1000);
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(firstRender)
+        {
+            message.Add("first render O AfterEvent");
+            await Task.Delay(1000);
+        }
+        else
+        {
+            message.Add("After first render O AfterEvent");
+            await Task.Delay(1000);
+        }
+
+
+    }
+    protected override bool ShouldRender()
+    {
+        return base.ShouldRender();
+    }
+
+    private async Task<int> HundledValue()
+    {
+        return sum = value1 + value2;
+    }
+
+}
